@@ -67,7 +67,7 @@ button{
     
 }
 button:hover {
-    background: blueviolet;
+    background: #000;
 }
 #resultatfinal {
     text-align: center;
