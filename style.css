@@ -12,7 +12,7 @@ body {
     left: 50%;
     transform: translate(-50%,-50%);
     background: #f1f1f1;
-    box-shadow: 0 5px 5px 0 rgba(255,255,255,2) ;
+    box-shadow: 0 5px 5px 0 #000 ;
     border-radius: 15px;
     overflow: hidden;
 
@@ -26,10 +26,10 @@ body {
 #quizz-question{
     margin: 3rem auto;
     text-align: center;
-    font-size: 10px;
+    font-size: 30px;
     font-weight: bold;
     color: rgb(7,56,56);
-    text-transform: lowercase;
+    text-transform: uppercase;
 }
 #contenair-content label {
     display: block;
@@ -67,7 +67,7 @@ button{
     
 }
 button:hover {
-    background: #000;
+    background: blueviolet;
 }
 #resultatfinal {
     text-align: center;
