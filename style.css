@@ -15,12 +15,12 @@ body {
     box-shadow: 0 5px 5px 0 #000 ;
     border-radius: 15px;
     overflow: hidden;
-
+   
 }
 #contenair-question, #contenair-content {
     margin: 0 0 1rem 0;
 }
-#quizz-img {
+#quizz-image {
     width: 100%;
 }
 #quizz-question{
@@ -45,13 +45,13 @@ body {
     border: none;
     background: none;
     border-bottom: 1px solid black;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 500px;
 }
 button{
     margin: 0 auto;
     display: block;
-    width: 90%;
+    width: 90%; 
     height: 40;
     color: #f1f1f1;
     font-weight: bold;
@@ -74,5 +74,27 @@ button:hover {
     margin: 2rem 0;
     font-weight: 30px;
     text-transform: uppercase;
-
 }
+@media  screen and (max-width: 1024px) {
+    #contenair-content input {
+        font-size: 25px;
+        font-weight: normal;
+    }
+    button {
+        font-size: 25px;
+    }
+    
+}
+@media  screen and (min-width: 412px) and (max-width: 1024px) {
+    #resultatfinal {
+        font-size: 30px;
+    }
+    
+}
+@media  screen and (min-width: 340px) and (max-width: 390px){
+    #resultatfinal {
+        font-size: 25px;
+    }
+    
+}
+
