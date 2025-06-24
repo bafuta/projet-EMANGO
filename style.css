@@ -93,8 +93,10 @@ button:hover {
 }
 @media  screen and (min-width: 340px) and (max-width: 390px){
     #resultatfinal {
-        font-size: 25px;
+        font-size: 15px;
     }
-    
+     button {
+        font-size: 15px;
+    }
 }
 
