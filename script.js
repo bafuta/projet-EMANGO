@@ -11,9 +11,21 @@ document.addEventListener('DOMContentLoaded', function() {
         { image: "brazil.jpg", name: "brazil" },
         { image: "mali.jpg", name: "mali"},
         { image: "portugal.jpg", name: 'portugal'},
-        { image: "japan.jpg", name: 'japan'},
+        { image: "japon.jpg", name: 'japon'},
         { image: "angleterre.jpg", name: 'angleterre'},
         { image: "france.jpg", name: 'france'},
+        { image: "belgique.jpg", name: 'belgique'},
+        { image: "corée du sud.jpg", name: "corée du sud" },
+        { image: "egypte.jpg", name: "egypte" },
+        { image: "maroc.jpg", name: "maroc"},
+        { image: "turquie.jpg", name: 'turquie'},
+        { image: "ukraine.jpg", name: 'ukraine'},
+        { image: "italie.jpg", name: 'italie'},
+        { image: "allemagne.jpg", name: 'allemagne'},
+        { image: "uruguay.jpg", name: 'uruguay'},
+        { image: "canada.jpg", name: 'canada'},
+        { image: "etats-unis.jpg", name: 'etats-unis'},
+        { image: "algérie.jpg", name: 'algérie'},
        
     ];
     let score = 0;
@@ -41,7 +53,9 @@ document.addEventListener('DOMContentLoaded', function() {
         if (reponseUtilisateur === bonnereponse) {
             score++;
         }
+
         questionactuelle++;
+        
         afficherquestion();
     }
     nexbutton.addEventListener('click', validation);

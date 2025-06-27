@@ -45,7 +45,7 @@ body {
     border: none;
     background: none;
     border-bottom: 1px solid black;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 500px;
 }
 button{
@@ -67,7 +67,7 @@ button{
     
 }
 button:hover {
-    background: blueviolet;
+    background: #000;
 }
 #resultatfinal {
     text-align: center;
@@ -77,7 +77,7 @@ button:hover {
 }
 @media  screen and (max-width: 1024px) {
     #contenair-content input {
-        font-size: 25px;
+        font-size: 30px;
         font-weight: normal;
     }
     button {
@@ -93,9 +93,6 @@ button:hover {
 }
 @media  screen and (min-width: 340px) and (max-width: 390px){
     #resultatfinal {
-        font-size: 15px;
-    }
-     button {
         font-size: 15px;
     }
 }
